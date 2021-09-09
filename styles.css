@@ -1,0 +1,35 @@
+
+.heading{
+    font-size: 50px;
+}
+h1{
+    font-family: "Times New Roman", sans-serif, serif;
+
+}
+h3{
+    font-size: 25px;
+}
+p,li{
+    font-family: "Times New Roman" , sans-serif, serif;
+    font-size: 20px;
+}
+#logo{
+    width: 200px;
+    height:200px;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.heading,
+.recipe-title{
+    text-align: center;
+}
+
+.pb-image{
+    height:800px;
+    width: 1600px;
+}
