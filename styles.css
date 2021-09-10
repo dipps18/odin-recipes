@@ -1,16 +1,19 @@
 
+html{
+    background-color:white;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif,"Times New Roman", sans-serif, serif;
+
+
+}
 .heading{
     font-size: 50px;
 }
-h1{
-    font-family: "Times New Roman", sans-serif, serif;
 
-}
 h3{
     font-size: 25px;
+
 }
 p,li{
-    font-family: "Times New Roman" , sans-serif, serif;
     font-size: 20px;
 }
 #logo{
@@ -28,7 +31,11 @@ p,li{
 .recipe-title{
     text-align: center;
 }
-
+.pizza
+{
+    height:600px;
+    width:1000px;
+}
 .pb-image{
     height:800px;
     width: 1600px;
