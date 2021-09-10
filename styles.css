@@ -1,24 +1,22 @@
 
 html{
-    background-color:white;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif,"Times New Roman", sans-serif, serif;
-
+    background-color:rgb(243, 241, 241);
+        font-family: "Open Sans";
 
 }
+
+h1,h2,h3,h4,h5{
+    font-weight: 300;
+
+}
+
 .heading{
-    font-size: 50px;
+    font-size: 38px;
 }
 
-h3{
-    font-size: 25px;
-
-}
-p,li{
-    font-size: 20px;
-}
 #logo{
-    width: 200px;
-    height:200px;
+    width: 100px;
+    height:100px;
 
 }
 .center{
@@ -33,10 +31,10 @@ p,li{
 }
 .pizza
 {
-    height:600px;
-    width:1000px;
+    height:400px;
+    width:800px;
 }
 .pb-image{
-    height:800px;
-    width: 1600px;
+    height:400px;
+    width: 800px;
 }
