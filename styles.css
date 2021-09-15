@@ -1,6 +1,5 @@
 
 html{
-    background-color:rgb(243, 241, 241);
         font-family: "Open Sans";
 
 }
@@ -12,6 +11,7 @@ h1,h2,h3,h4,h5,h6{
 
 .heading{
     font-size: 38px;
+    
 }
 
 #logo{
@@ -37,4 +37,27 @@ h1,h2,h3,h4,h5,h6{
 .pb-image{
     height:400px;
     width: 800px;
+    border:2px solid black;
 }
+
+.content{
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ gap:20px;
+}
+
+div img{
+    width:400px;
+    height:550px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items:center;
+    width:400px;
+    text-align: center;
+}
+
