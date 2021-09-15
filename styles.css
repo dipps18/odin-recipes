@@ -10,34 +10,20 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .heading{
-    font-size: 38px;
-    
+    font-size: 38px; 
 }
 
 #logo{
     width: 100px;
     height:100px;
-
-}
-.center{
-    display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
+    display: block;
 }
 
 .heading,
 .recipe-title{
     text-align: center;
-}
-.pizza
-{
-    height:400px;
-    width:800px;
-}
-.pb-image{
-    height:400px;
-    width: 800px;
-    border:2px solid black;
 }
 
 .content{
@@ -49,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
 
 div img{
     width:400px;
-    height:550px;
+    height:450px;
 }
 
 .item{
@@ -59,5 +45,48 @@ div img{
     align-items:center;
     width:400px;
     text-align: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 30px;
+    width:420px;
+    height: 1507px;
+}
+
+.content{
+    gap:40px;
+    display: flex;
+}
+
+
+.right-top{
+    border:2px solid rgb(41, 41, 41);
+    height:450px;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;  
+}
+
+.steps-container{   
+    margin-top:20px;
+    border:2px solid rgb(41, 41, 41);
+    height: 1030px;
+
+}
+
+.ingredients-container{
+    background-color: rgb(240, 236, 230);
+    padding:20px;
+    flex-grow: 3;
+}
+
+.right-top,
+.steps-container{
+    padding:0 20px 0px 20px;
 }
 
