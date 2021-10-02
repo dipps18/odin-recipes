@@ -16,14 +16,15 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 15px;
     box-shadow: 0 0 5px rgb(136, 219, 140);
 }
+
+
 .heading{
     font-size: 62px; 
     font-family: 'Amatic SC', cursive;
-
 }
+
 a{
     text-decoration:none;
-    color:black;
 }
 #logo{
     width: 100px;
