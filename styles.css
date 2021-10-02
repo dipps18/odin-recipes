@@ -1,18 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
 html{
-        font-family: "Open Sans";
-
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-weight: 300;
 
 }
-
-.heading{
-    font-size: 38px; 
+.item img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(136, 219, 140);
 }
+.heading{
+    font-size: 62px; 
+    font-family: 'Amatic SC', cursive;
 
+}
+a{
+    text-decoration:none;
+    color:black;
+}
 #logo{
     width: 100px;
     height:100px;
@@ -25,29 +37,34 @@ h1,h2,h3,h4,h5,h6{
 .recipe-title{
     text-align: center;
 }
-
+h3{
+    font-weight: bold;
+}
 .content{
  display:flex;
  flex-direction: row;
  justify-content: center;
+ font-size: 20px;
  gap:20px;
 }
 
 div img{
-    width:400px;
-    height:450px;
+    
+    width:350px;
+    height:500px;
 }
 
 .item{
     display: flex;
     flex-direction: column;
-    gap:15px;
+    gap:10px;
     align-items:center;
     width:400px;
     text-align: center;
 }
 
 .left{
+    
     display: flex;
     flex-direction: column;
     gap:20px;
@@ -55,7 +72,10 @@ div img{
     width:420px;
     height: 1507px;
 }
+.left img{
+    border-radius: 10px;
 
+}
 .content{
     gap:40px;
     display: flex;
@@ -63,8 +83,9 @@ div img{
 
 
 .right-top{
-    border:2px solid rgb(41, 41, 41);
-    height:450px;
+    border-radius: 10px;
+    border:1px solid rgb(41, 41, 41);
+    height:500px;
 }
 
 ul{
@@ -74,12 +95,14 @@ ul{
 
 .steps-container{   
     margin-top:20px;
-    border:2px solid rgb(41, 41, 41);
-    height: 1030px;
+    border-radius: 10px;
+    border:1px solid rgb(71, 71, 71);
+    height: 987px;
 
 }
 
 .ingredients-container{
+    border-radius: 10px;
     background-color: rgb(240, 236, 230);
     padding:20px;
     flex-grow: 3;
